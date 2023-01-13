@@ -8,73 +8,67 @@
   </head>
   <body>
     <h1><b>Race Registration</b></h1>
-    <!--!Below is the first and last name prompt-->
-    <div>
-      <label for="First name">First Name</label>
-      <input type="text" id="First name" placeholder="First name" />
-      <label for="Last name">Last name</label>
-      <input type="text" id="Last name" placeholder="Last name" />
-    </div>
-   
-    <!--! Below is the selection type for race-->
-    <div>
-      <p>
-      Select a race:
+    <form action="">
+      <!--!Below is the first and last name prompt-->
+      <div>
+        <label for="First name">First Name</label>
+        <input type="text" id="First name" placeholder="First name" />
+        <label for="Last name">Last name</label>
+        <input type="text" id="Last name" placeholder="Last name" />
+      </div>
 
+      <!--! Below is the selection type for race-->
       <div>
-        <input type="radio" id="5krun" name="run" value="5k run" checked/>
-        <label for="5krun">Fun run 5k</label>
-      </div>
-      <div>
-        <input type="radio" name="run" id="half" value="half run"/>
-        <label for="half">Half Marathon</label>
-      </div>
-      <div>
-        <input type="radio" name="run" id="full" value="full run"/>
-        <label for="full">Full Marathon</label>
-      </div>
-    </p>
-    </div>
-    <!--! Below is Email and password-->
-    <div>
-      <label for="email">Email:</label>
-      <input type="email" id="email" placeholder="Enter you'r email" required />
-      <label for="pass">Password:</label>
-      <input type="password" id="pass" placeholder="Enter your password" minlength="4" required />
-      
-    </div>
-    <div>
-      
         <div>
+          Select a race:
 
-          <label for="age selector">Select Age Group:</label>
-          <select name="age" id="age-selecet">
-          <option value="">--Please pick age group--</option>
-          <option value="under 18">Under 18</option>
-          <option value="18-30">18-39</option>
-          <option value="30-50">30-50</option>
-          <option value="50+">50+</option>
-          <button>Register</button>
+          <div>
+            <input type="radio" id="5krun" name="run" value="5k run" checked />
+            <label for="5krun">Fun run 5k</label>
+          </div>
+          <div>
+            <input type="radio" name="run" id="half" value="half run" />
+            <label for="half">Half Marathon</label>
+          </div>
+          <div>
+            <input type="radio" name="run" id="full" value="full run" />
+            <label for="full">Full Marathon</label>
+          </div>
         </div>
-  
+      </div>
+      <!--! Below is Email and password-->
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter you'r email"
+          required
+        />
+        <label for="pass">Password:</label>
+        <input
+          type="password"
+          id="pass"
+          placeholder="Enter your password"
+          minlength="4"
+          required
+        />
+      </div>
 
-    </div>
+      <div>
+        <div>
+          <!--!Age selector -->
+          <label for="age-selecet">Select Age Group:</label>
+          <select name="age" id="age-selecet">
+            <option value="">--Please pick age group--</option>
+            <option value="under 18">Under 18</option>
+            <option value="18-30">18-39</option>
+            <option value="30-50">30-50</option>
+            <option value="50+">50+</option>
+          </select>
+        </div>
+        <button>Register</button>
+      </div>
+    </form>
   </body>
 </html>
-
-<!-- 
-<form action="accountinfo">
-    <div>
-    <label for="username">Username:</label>
-    <input type="text" id="username" placeholder="username"/>
-    </div>
-    <div>
-    <label for="password">Password:</label>
-    <input type="password" id="password" placeholder="password"/>
-    </div>   
-    <div>
-    <button>Register</button>
-    </div>
-    
-   </form>
-      -->
