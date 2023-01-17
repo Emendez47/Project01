@@ -2,5 +2,10 @@ h1  {
     color: #5a7813;
 }
 body{
-    background-color: black;
+    background-color: #ff8811;
 }
+nav a {
+    color: #fff8f0;
+    background-color: #f4d06f;
+}
+
