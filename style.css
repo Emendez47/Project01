@@ -1,11 +1,69 @@
+/*! Color */
+/*?  main Back Ground:#ECE8EF  */
+/*? Text: #E3EBFF */
+/*? Text background:#dc49a*/
+/*? titles: #4392F1 */
+/** #4392F1 ,#ECE8EF,E3EBFF,E7F0FF,DC493A  https://coolors.co/4392f1-ece8ef-e3ebff-e7f0ff-dc493a*/
+
+
+
+
 h1  {
     color: #5a7813;
 }
 body{
-    background-color: #ff8811;
+    background-color: #9A86AC;
+    font-family: sans-serif ;
 }
-nav a {
-    color: #fff8f0;
-    background-color: #f4d06f;
+
+h2 {
+    color: black;
+    background-color:#4392F1 ;
+    border-radius:10px ;
+    text-align: center;
+    width: 10%;
+    margin-left: 40%;
+}
+
+#navigation {
+    background-color: #DC493A;
+    border-radius: 1em;
+    border: 1rem;
+    border-top: 40000px;
+    list-style-type:none;
+    height: 1.5em;
+    text-align: center;
+    width: 4em;
+    font-size: 1rem;
+    position:;
+    
+}
+#navigation ul li {
+    list-style-type:none;
+    text-decoration-line: none;
+    
+}
+#navigation:hover{
+background-color: #4392F1;
+height: 30px;
+text-align: center;
+
+}
+
+
+.dialog {
+    color: #E3EBFF;
+    background-color: #DC493A;
+    border-radius: 10px;
+    margin-left:8%;
+    margin-right: 15%;
+    text-align: center;
+    border: 2px solid black;
+    width: 85%;
+    
+    
+}
+.home {
+    background-image: url('C:\Users\emene\Pictures\Icons\home.svg');
 }
 
