@@ -1,0 +1,25 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+button {
+    background: none;
+    color:rgb(11, 114, 203);
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s,border-color 0.25s, box-shawdow 0.25s,transform 0.25s;
+}
+
+button:hover {
+border-color: #09ff36;
+color: rgb(42, 99, 49);
+box-shadow: 0 0.5em 0.5em -0.4em #09ff36;
+transform: translateY(-0.25em);
+cursor: pointer;
+}

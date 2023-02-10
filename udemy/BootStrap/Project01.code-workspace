@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	},
+	{
+		"path": "../../../../Users/emene/Pictures/Icons"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Project01",
+    "liveServer.settings.port": 5550
+  }
+}
